@@ -1,0 +1,24 @@
+body {
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px;
+}
+
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9 {
+    border: 1px solid black;
+    text-align: center;
+}
