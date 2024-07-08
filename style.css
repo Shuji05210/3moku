@@ -1,12 +1,16 @@
-body {
-    width: 800px;
-    margin: 0 auto 0 auto;
+
+#sanmoku{
+    text-align: center;
+    margin: 60px auto 50px auto;
 }
+
 
 .container {
     display: grid;
-    grid-template-rows: 80px 80px 80px;
-    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    
+    justify-content: center
 }
 
 
