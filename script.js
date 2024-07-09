@@ -1,7 +1,8 @@
-const field = document.querySelectorAll('.container');
+const field = document.querySelectorAll('.container div');
 //console.log(field);
 
 //マス内の要素を指定
+//1つずつ指定する方法 コードが長くなってしまう
 const Item1 = document.querySelector('.item-1')
 const Item2 = document.querySelector('.item-2')
 const Item3 = document.querySelector('.item-3')
@@ -12,7 +13,8 @@ const Item7 = document.querySelector('.item-7')
 const Item8 = document.querySelector('.item-8')
 const Item9 = document.querySelector('.item-9')
 
-//カウンタ変数
+
+//カウンタ変数 (カウントを行う用の変数)
 let count = 0;
 
 
