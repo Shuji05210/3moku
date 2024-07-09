@@ -1,4 +1,4 @@
-const field = document.querySelectorAll('.container div');
+//const field = document.querySelectorAll('.container div');
 //console.log(field);
 
 //マス内の要素を指定
@@ -19,7 +19,7 @@ let count = 0;
 
 
 //クリックされたときに Item内に '〇' を表示させる
-Item1.addEventListener('click',()=>{
+Item1.addEventListener('click', () => {
     //カウンタによって クリックされた回数 を数える
     count++;
     console.log(count);
@@ -35,7 +35,7 @@ Item1.addEventListener('click',()=>{
     }
 })
 
-Item2.addEventListener('click',()=>{
+Item2.addEventListener('click', () => {
     //カウンタによって クリックされた回数 を数える
     count++;
     console.log(count);
@@ -51,7 +51,7 @@ Item2.addEventListener('click',()=>{
     }
 })
 
-Item3.addEventListener('click',()=>{
+Item3.addEventListener('click', () => {
     //カウンタによって クリックされた回数 を数える
     count++;
     console.log(count);
@@ -67,7 +67,7 @@ Item3.addEventListener('click',()=>{
     }
 })
 
-Item4.addEventListener('click',()=>{
+Item4.addEventListener('click', () => {
     //カウンタによって クリックされた回数 を数える
     count++;
     console.log(count);
@@ -83,7 +83,7 @@ Item4.addEventListener('click',()=>{
     }
 })
 
-Item5.addEventListener('click',()=>{
+Item5.addEventListener('click', () => {
     //カウンタによって クリックされた回数 を数える
     count++;
     console.log(count);
@@ -99,7 +99,7 @@ Item5.addEventListener('click',()=>{
     }
 })
 
-Item6.addEventListener('click',()=>{
+Item6.addEventListener('click', () => {
     //カウンタによって クリックされた回数 を数える
     count++;
     console.log(count);
@@ -115,7 +115,7 @@ Item6.addEventListener('click',()=>{
     }
 })
 
-Item7.addEventListener('click',()=>{
+Item7.addEventListener('click', () => {
     //カウンタによって クリックされた回数 を数える
     count++;
     console.log(count);
@@ -131,7 +131,7 @@ Item7.addEventListener('click',()=>{
     }
 })
 
-Item8.addEventListener('click',()=>{
+Item8.addEventListener('click', () => {
     //カウンタによって クリックされた回数 を数える
     count++;
     console.log(count);
@@ -147,7 +147,7 @@ Item8.addEventListener('click',()=>{
     }
 })
 
-Item9.addEventListener('click',()=>{
+Item9.addEventListener('click', () => {
     //カウンタによって クリックされた回数 を数える
     count++;
     console.log(count);
